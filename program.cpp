@@ -33,7 +33,7 @@ void traverseFileSystem(const fs::path& path, std::unordered_map<std::string, st
 }
 
 int main() {
-    fs::path pathToAnalyze = "C:/Users/amyba/OneDrive/Desktop/Projects/FS analyzer";
+    fs::path pathToAnalyze = "C:/insert/path";
 
     std::unordered_map<std::string, std::size_t> fileSizes;
     std::unordered_map<std::size_t, std::string> duplicates;
